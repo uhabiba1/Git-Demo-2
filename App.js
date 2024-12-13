@@ -19,13 +19,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   banner: {
-    backgroundColor: '#4CAF50', 
+    backgroundColor: '#7D5756', 
     paddingVertical: 20, 
     paddingHorizontal: 30, 
     borderRadius: 10, 
   },
   bannerText: {
-    fontSize: 20,
+    fontSize: 24,
     color: '#fff', 
     fontWeight: 'bold',
     textAlign: 'center',
