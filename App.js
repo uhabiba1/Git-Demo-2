@@ -4,8 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>This is my test app!</Text>
-      <StatusBar style="auto" />
+      <View style={styles.banner}>
+        <Text style={styles.bannerText}>This is my Test App!</Text>
+      </View>
     </View>
   );
 }
@@ -16,5 +17,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  banner: {
+    backgroundColor: '#4CAF50', 
+    paddingVertical: 20, 
+    paddingHorizontal: 30, 
+    borderRadius: 10, 
+  },
+  bannerText: {
+    fontSize: 20,
+    color: '#fff', 
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
