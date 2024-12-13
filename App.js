@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   banner: {
-    backgroundColor: '#4CAF50', 
+    backgroundColor: '#115e99', 
     paddingVertical: 20, 
     paddingHorizontal: 30, 
     borderRadius: 10, 
